@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FlatMarkers</string>
+    <string name="title_activity_map_pane">MapPane</string>
+</resources>

@@ -1,0 +1,44 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map" tools:context=".MapPaneActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment" >
+
+    <!--Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:text="Navigate"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp"
+        android:id="@+id/navigateButton"
+        android:visibility="invisible"/-->
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:text="Navigate"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp"
+        android:id="@+id/navigateButton2"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:text="Start Navigation"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+        android:layout_marginTop="75dp"
+        android:paddingRight="10dp"
+        android:id="@+id/startButton"
+        android:visibility="invisible"/>
+
+
+
+</fragment>
