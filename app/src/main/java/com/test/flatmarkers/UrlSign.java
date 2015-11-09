@@ -39,8 +39,8 @@ public class UrlSign {
 
     static {
         textEncryptor.setPassword("");
-        PRIVATE_KEY = textEncryptor.decrypt("jkO2yt1NQYEVkGbW2nZUxMOVF4VM7K8GRjTjSH81LjQtOGWzUXCrKg==");
-        CLIENT_ID = textEncryptor.decrypt("qII3eN/PZSRacUzPekc/XYF9+KKLqKEG");
+        PRIVATE_KEY = textEncryptor.decrypt(ENC_PRIVATE_KEY);
+        CLIENT_ID = textEncryptor.decrypt(ENC_CLIENT_ID);
     }
 
     public static String signUrl(String urlString) throws IOException, InvalidKeyException, NoSuchAlgorithmException, URISyntaxException {
